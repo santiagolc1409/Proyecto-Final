@@ -23,6 +23,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
+            <EditText
+                android:layout_width="21dp"
+                android:layout_height="67dp"
+                android:layout_weight="1"
+                android:background="@drawable/search_background"
+                android:hint="Esto es un comentario"
+                android:padding="8dp"
+                android:textSize="16sp" />
+
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="40dp"
